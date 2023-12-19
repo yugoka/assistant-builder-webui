@@ -1,5 +1,7 @@
 import type { ThemeConfig } from "antd";
 
-const theme: ThemeConfig = {};
+const theme: ThemeConfig = {
+  token: {},
+};
 
 export default theme;

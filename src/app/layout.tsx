@@ -2,6 +2,7 @@ import React from "react";
 
 import StyledComponentsRegistry from "../../lib/AntdRegistry";
 import HomeLayout from "@/layouts/HomeLayout";
+import "./globals.css";
 
 export const metadata = {
   title: "Assistant Builder",
