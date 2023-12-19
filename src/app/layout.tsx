@@ -1,9 +1,6 @@
 import React from "react";
 
 import StyledComponentsRegistry from "../../lib/AntdRegistry";
-import { Layout } from "antd";
-import { Content, Header } from "antd/es/layout/layout";
-import Sider from "antd/es/layout/Sider";
 import HomeLayout from "@/layouts/HomeLayout";
 
 export const metadata = {
