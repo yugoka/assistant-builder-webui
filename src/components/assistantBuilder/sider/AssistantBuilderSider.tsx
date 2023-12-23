@@ -1,6 +1,6 @@
 import React from "react";
 import { Layout, Menu, theme } from "antd";
-import AssistantBuilderSiderTree from "./AssistantBuilderSiderTree";
+import AssistantBuilderSiderTree from "./tree/AssistantBuilderSiderTree";
 const { Sider } = Layout;
 
 export default function AssistantBuilderSider() {
@@ -13,6 +13,7 @@ export default function AssistantBuilderSider() {
         borderRadius: token.borderRadiusLG,
         background: token.colorBgContainer,
       }}
+      width={250}
     >
       <AssistantBuilderSiderTree />
     </Sider>
